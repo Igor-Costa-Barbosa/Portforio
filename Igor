@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Eu.jpeg" alt="avatar do Igor" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o igor</p>
+        <h1>Eu estudo Eletromecânica de Autos</h1>
+        <p>Sou cursando de Eletromecânica de Autos, dedicado, curioso e apaixonado por motores, focado em diagnósticos e manutenção automotiva.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Manutenção de Câmbio</p>
+            <p class="badge bg-secondary">Circuito Elétrico</p>
+            <p class="badge bg-secondary">Hablidade em Motores</p>
+            
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Apresentação.jpeg" class="card-img-top" alt="Minha Primeira Apresentação">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Primeira Apresentação</h5>
+                        <p class="card-text">Recentemente, tive a oportunidade de participar de uma apresentação no curso técnico de Eletromecânica de Autos. O tema abordado foi o funcionamento e a manutenção de sistemas de injeção eletrônica, um dos assuntos que mais despertam meu interesse na área automotiva. A proposta era demonstrar, de forma prática e teórica, como os sensores e atuadores influenciam no desempenho do motor.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Motor.jpeg" class="card-img-top" alt="Imagem do Motores">
+                    <div class="card-body">
+                        <h5 class="card-title">Motores</h5>
+                        <p class="card-text">Durante o curso técnico de Eletromecânica de Autos, realizei uma apresentação sobre motores V6, um dos tipos mais utilizados em veículos de alta performance. O objetivo foi explicar sua estrutura, funcionamento e principais vantagens em comparação a outros modelos de motor, como os de quatro cilindros em linha.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Circuito Elétrico.jpeg" class="card-img-top" alt="Imagem do Circuito Elétrico ">
+                    <div class="card-body">
+                        <h5 class="card-title">Circuito Elétrico
+                        </h5>
+                        <p class="card-text">Durante o curso técnico de Eletromecânica de Autos, realizei uma apresentação sobre circuitos elétricos, um tema fundamental para quem atua na área automotiva. O objetivo era mostrar como funcionam os circuitos simples e como eles se aplicam nos sistemas dos veículos, como iluminação, partida e injeção eletrônica.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Primeira Apresentação</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Durante os preparativos, pesquisei bastante sobre o sistema de injeção multiponto e seus componentes principais, como sonda lambda, sensor MAP e corpo de borboleta. Também elaborei slides com esquemas e vídeos explicativos, para tornar o conteúdo mais dinâmico e acessível aos colegas. Além disso, montei uma bancada com peças reais para demonstrar os testes com multímetro e scanner automotivo.</p>
+                    <p>No dia da apresentação, expliquei o funcionamento básico do sistema, a importância de cada componente e como realizar diagnósticos eficientes. Utilizei exemplos práticos, mostrando falhas comuns e como identificá-las. A participação da turma foi excelente, com várias perguntas e discussões que enriqueceram ainda mais o momento.</p>
+                    <p>Uma das partes mais marcantes foi a demonstração prática. Mostrei como identificar um sensor defeituoso e como os dados lidos pelo scanner podem indicar o problema com precisão. Essa interação com os equipamentos e a aplicação do conhecimento teórico me fez sentir mais preparado para os desafios do mercado de trabalho.</p>
+                    <p>Ao final, recebi um retorno positivo dos professores e colegas, o que reforçou minha confiança e motivação no curso. Essa experiência me ensinou muito não apenas sobre o conteúdo técnico, mas também sobre organização, didática e comunicação. Sem dúvidas, foi um passo importante na minha formação profissional em Eletromecânica de Autos.</p>
+                    <img src="img/a1.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do Minha Primeira Apresentação">
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">   <h5 class="modal-title">Motores</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Para me preparar, pesquisei a fundo sobre o motor V6, destacando sua configuração em "V", a disposição dos cilindros e como isso influencia no equilíbrio, desempenho e suavidade do funcionamento. Preparei slides com imagens detalhadas do bloco do motor, além de vídeos que mostravam o funcionamento interno em tempo real, o que facilitou a compreensão do público.
+                    </p>
+                    <p>Durante a apresentação, abordei tópicos como o ciclo de combustão, a ordem de ignição e os sistemas auxiliares, como arrefecimento e lubrificação. Expliquei também as vantagens do V6, como a melhor distribuição de peso e o maior torque em rotações médias, fatores que o tornam ideal para SUVs e sedãs esportivos.</p>
+                    <p>A parte prática foi um dos pontos altos. Apresentei um cabeçote real de um motor V6 e demonstrei o movimento das válvulas e pistões com uma ferramenta de simulação. Também mostrei, com o scanner automotivo, como identificar falhas no funcionamento desse tipo de motor, tornando a explicação ainda mais clara e envolvente.</p>
+                    <p>No final, recebi muitos elogios dos colegas e professores. A experiência foi extremamente enriquecedora, tanto pelo aprofundamento técnico quanto pelo desenvolvimento da comunicação. Apresentar sobre motores V6 reforçou minha paixão pela mecânica automotiva e me deixou ainda mais motivado a seguir na área com dedicação. </div>
+                    </p>
+                    <img src="img/m1.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+               
+
+            
+                </div>
+                <div>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Circuito Elétrico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Comecei os preparativos revendo conceitos básicos de corrente, tensão, resistência e Lei de Ohm. Montei esquemas de circuitos em série e paralelo e usei uma protoboard para simular situações práticas. Também preparei slides explicativos com símbolos elétricos e exemplos reais do sistema elétrico automotivo, como o funcionamento do farol e do motor de partida.</p>
+                    <p>Durante a apresentação, expliquei como identificar os componentes de um circuito e como fazer medições com o multímetro. Mostrei na prática como uma ligação errada pode afetar todo o sistema e a importância dos fusíveis e relés na proteção do circuito. Os colegas participaram bastante, tirando dúvidas e comentando situações que já haviam enfrentado na oficina.</p>
+                    <p>No fim, recebi um ótimo retorno dos professores e da turma. A experiência foi muito produtiva, pois além de aprofundar meus conhecimentos em circuitos elétricos, também desenvolvi minha capacidade de explicar de forma clara e objetiva. Essa apresentação reforçou o quanto a parte elétrica é essencial para o bom funcionamento dos veículos e despertou ainda mais meu interesse pela área.</p>
+                    <img src="img/c1.jpeg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Igor-Costa-Barbosa">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Igor Costa Barbosa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
